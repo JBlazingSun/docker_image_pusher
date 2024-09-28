@@ -7,7 +7,7 @@
 --platform=linux/amd64 nginx:1.27.1
 --platform=linux/arm/v7 nginx:1.27.1
 
---platform=clinux/amd64 node:22.9
+--platform=linux/amd64 node:22.9
 --platform=linux/arm64 node:22.9
 
 --platform=linux/amd64 redis:6.2.14
