@@ -54,3 +54,4 @@
 --platform=linux/amd64 bitnami/minio:2024.9.22
 --platform=linux/arm64 bitnami/minio:2024.9.22
 
+--platform=linux/amd64 maven:linux:3.9-eclipse-temurin-21-noble
