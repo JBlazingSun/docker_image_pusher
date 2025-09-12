@@ -7,51 +7,50 @@
 
 --platform=linux/amd64 xiaoyaliu/alist
 
---platform=linux/amd64 nginx:1.27.1
---platform=linux/arm/v7 nginx:1.27.1
+--platform=linux/amd64 nginx:latest
+--platform=linux/arm/v7 nginx:latest
 
---platform=linux/amd64 node:22.9
---platform=linux/arm64 node:22.9
+--platform=linux/amd64 node:latest
+--platform=linux/arm64 node:latest
 
---platform=linux/amd64 redis:6.2.14
---platform=linux/arm/v5 redis:6.2.14
+--platform=linux/amd64 redis:latest
+--platform=linux/arm/v5 redis:latest
 
---platform=linux/amd64 redis:7.4
---platform=linux/arm/v5 redis:7.4
+--platform=linux/amd64 mysql:latest
 
---platform=linux/amd64 mysql:8.0.39-debian
+--platform=linux/amd64 jenkins/jenkins:latest
+--platform=linux/arm64 jenkins/jenkins:latest
 
---platform=linux/amd64 jenkins/jenkins:2.478-jdk21
---platform=linux/arm64 jenkins/jenkins:2.478-jdk21
-
---platform=linux/amd64 halohub/halo:2.19.3
---platform=linux/arm64 halohub/halo:2.19.3
+--platform=linux/amd64 halohub/halo:latest
+--platform=linux/arm64 halohub/halo:latest
 
 #############
---platform=linux/amd64 grafana/grafana:11.2.1-ubuntu
---platform=linux/arm64 grafana/grafana:11.2.1-ubuntu
+--platform=linux/amd64 grafana/grafana:latest
+--platform=linux/arm64 grafana/grafana:latest
 
---platform=linux/amd64 bitnami/prometheus:2.54.1
---platform=linux/arm64 bitnami/prometheus:2.54.1
+--platform=linux/amd64 bitnami/prometheus:latest
+--platform=linux/arm64 bitnami/prometheus:latest
 
---platform=linux/amd64 bitnami/kafka:3.3.2
---platform=linux/arm64 bitnami/kafka:3.3.2
+--platform=linux/amd64 bitnami/kafka:latest
+--platform=linux/arm64 bitnami/kafka:latest
 
---platform=linux/amd64 nacos/nacos-server:v2.4.2.1
---platform=linux/arm64 nacos/nacos-server:v2.4.2.1
+--platform=linux/amd64 nacos/nacos-server:latest
+--platform=linux/arm64 nacos/nacos-server:latest
 
---platform=linux/amd64 rabbitmq:4.0.2-management
---platform=linux/arm/v7 rabbitmq:4.0.2-management
+--platform=linux/amd64 rabbitmq:rabbitmq:4.0
+--platform=linux/arm/v7 rabbitmq:rabbitmq:4.0
 
---platform=linux/amd64 wordpress:php8.3
---platform=linux/arm/v5 wordpress:php8.3
 
---platform=linux/amd64 sonatype/nexus:pro-2.15.1
+--platform=linux/amd64 sonatype/nexus:latest
 
---platform=linux/amd64 snowdreamtech/frps:0.60
---platform=linux/arm/v6 snowdreamtech/frps:0.60
+--platform=linux/amd64 snowdreamtech/frps:latest
+--platform=linux/arm/v6 snowdreamtech/frps:latest
 
---platform=linux/amd64 bitnami/minio:2024.9.22
---platform=linux/arm64 bitnami/minio:2024.9.22
+--platform=linux/amd64 bitnami/minio:latest
+--platform=linux/arm64 bitnami/minio:latest
 
 --platform=linux/amd64 maven:linux:3.9-eclipse-temurin-21-noble
+
+--platform=linux/arm64 bitnami/postgresql:latest
+
+--platform=linux/arm64 grafana/grafana:main-ubuntu
