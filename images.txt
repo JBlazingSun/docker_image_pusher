@@ -5,6 +5,6 @@
 #--platform=linux/amd64 caddy:2.9-alpine
 
 
---platform=linux/amd64 bitnami/postgresql:latest
+#--platform=linux/amd64 bitnami/postgresql:latest
 
---platform=linux/amd64 maven:3.9-eclipse-temurin-21
+--platform=linux/amd64 node:lts
