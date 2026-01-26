@@ -7,4 +7,4 @@
 
 #--platform=linux/amd64 bitnami/postgresql:latest
 
---platform=linux/amd64 node:lts
+--platform=linux/amd64 envoyproxy/gateway:v1.6.2
