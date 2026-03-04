@@ -7,9 +7,9 @@
 # kube-prometheus-stack 对应版本
 --platform=linux/amd64 library/busybox:1.37.0
 --platform=linux/amd64 alpine/kubectl:latest
-#--platform=linux/amd64 prometheusoperator/prometheus-operator:v0.89.0
---platform=linux/amd64 prometheusoperator/admission-webhook:v0.89.0
---platform=linux/amd64 prometheusoperator/prometheus-config-reloader:v0.89.0
+--platform=linux/amd64 prometheus-operator/prometheus-operator:v0.89.0
+--platform=linux/amd64 prometheus-operator/admission-webhook:v0.89.0
+--platform=linux/amd64 prometheus-operator/prometheus-config-reloader:v0.89.0
 --platform=linux/amd64 jkroepke/kube-webhook-certgen:1.7.8
 --platform=linux/amd64 prom/alertmanager:v0.31.1
 --platform=linux/amd64 prom/prometheus:v3.10.0
