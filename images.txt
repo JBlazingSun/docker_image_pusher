@@ -2,9 +2,24 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
-#--platform=linux/amd64 caddy:2.9-alpine
+# 示例:  --platform=linux/amd64 envoyproxy/gateway:v1.6.2
 
-
-#--platform=linux/amd64 bitnami/postgresql:latest
-
---platform=linux/amd64 envoyproxy/gateway:v1.6.2
+# kube-prometheus-stack 对应版本
+--platform=linux/amd64 library/busybox:1.37.0
+--platform=linux/amd64 alpine/kubectl:latest
+--platform=linux/amd64 prometheusoperator/prometheus-operator:v0.89.0
+--platform=linux/amd64 prometheusoperator/admission-webhook:v0.89.0
+--platform=linux/amd64 prometheusoperator/prometheus-config-reloader:v0.89.0
+--platform=linux/amd64 jkroepke/kube-webhook-certgen:1.7.8
+--platform=linux/amd64 prom/alertmanager:v0.31.1
+--platform=linux/amd64 prom/prometheus:v3.10.0
+--platform=linux/amd64 thanosio/thanos:v0.41.0
+--platform=linux/amd64 prom/node-exporter:v1.10.2
+--platform=linux/amd64 prometheuscommunity/windows-exporter:0.31.3
+--platform=linux/amd64 kubernetes/kube-state-metrics:v2.18.0
+--platform=linux/amd64 brancz/kube-rbac-proxy:v0.21.0
+--platform=linux/amd64 grafana/grafana:12.4.0
+--platform=linux/amd64 kiwigrid/k8s-sidecar:2.5.0
+--platform=linux/amd64 grafana/grafana-image-renderer:latest
+--platform=linux/amd64 bats/bats:1.13.0
+--platform=linux/amd64 curlimages/curl:8.18.0

@@ -39,3 +39,10 @@
 --platform=linux/amd64 maven:linux:3.9-eclipse-temurin-21-noble
 
 --platform=linux/amd64 bitnami/postgresql:latest
+
+#--platform=linux/amd64 caddy:2.9-alpine
+
+
+#--platform=linux/amd64 bitnami/postgresql:latest
+
+#--platform=linux/amd64 envoyproxy/gateway:v1.6.2
