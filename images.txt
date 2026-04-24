@@ -4,5 +4,5 @@
 #支持指定架构
 # 示例:  --platform=linux/amd64 envoyproxy/gateway:v1.6.2
 
---platform=linux/amd64 jc21/nginx-proxy-manager:v2.14.0
+--platform=linux/amd64 jc21/nginx-proxy-manager:2.14.0
 --platform=linux/amd64 envoyproxy/gateway:v1.7.2
