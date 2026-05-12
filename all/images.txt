@@ -46,3 +46,5 @@
 #--platform=linux/amd64 bitnami/postgresql:latest
 
 #--platform=linux/amd64 envoyproxy/gateway:v1.6.2
+
+--platform=linux/amd64 python:3.14.5-slim-bookworm
