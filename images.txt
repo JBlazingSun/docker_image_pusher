@@ -7,8 +7,8 @@
 #--platform=linux/amd64 envoyproxy/gateway:v1.8.1
 
 
---platform=linux/amd64 dhi.io/keda-admission-webhooks:2.20.1
+--platform=linux/amd64 ghcr.io/kedacore/keda:2.20.1
 
---platform=linux/amd64 dhi.io/keda-metrics-apiserver:2.20.1
+--platform=linux/amd64 ghcr.io/kedacore/keda-metrics-apiserver:2.20.1
 
---platform=linux/amd64 dhi.io/keda:2.20.1
+--platform=linux/amd64 ghcr.io/kedacore/keda:2.20.1
