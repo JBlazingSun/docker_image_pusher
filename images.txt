@@ -12,3 +12,5 @@
 #--platform=linux/amd64 mysql:8.0.37
 
 --platform=linux/amd64 python:3.12.14-slim-bookworm
+
+--platform=linux/amd64 python:3.13.15-slim-bookworm
